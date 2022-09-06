@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02/2 - Tablas en HTML</title>
+    <style>
+        td, th {
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+        table {
+            box-sizing: border-box;
+            width: 80vw;
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <center><h1>Ejercicio 02/2 - Tablas en HTML</h1></center>
+    </header>
+    <main>
+        <center><table>
+            <th>
+                Mis 3 libros favoritos, disponibles en amazon
+            </th>
+        </table></center>
+        <center><table>
+            <tr>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Año de publicación</th>
+                <th>Enlace a Amazon</th>
+            </tr>
+            <tr>
+                <td>Cien años de soledad</td>
+                <td>Gabriel Garcia Marques</td>
+                <td>1967</td>
+                <td><a href="https://www.amazon.ca/Cien-soledad-Gabriel-Garc%C3%ADa-M%C3%A1rquez/dp/0307474720/ref=asc_df_0307474720/?tag=googleshopc0c-20&linkCode=df0&hvadid=293011238842&hvpos=&hvnetw=g&hvrand=8525663598495412953&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1002498&hvtargid=pla-437059996755&psc=1">Compra aqui</a></td>
+            </tr>
+            <tr>
+                <td>Elon Musk: la vida, las lecciones y las reglas para el exito</td>
+                <td>Elon Musk</td>
+                <td>2020</td>
+                <td><a href="https://www.amazon.ca/Elon-Musk-lecciones-reglas-%C3%A9xito/dp/B0B7QR58NT/ref=sr_1_4?crid=27RYXRW56B3G1&keywords=libro+de+elon+musk&qid=1662487484&s=books&sprefix=libro+de+elon+musk%2Cstripbooks%2C81&sr=1-4">Compra aqui</a></td>
+            </tr>
+            <tr>
+                <td>Harry Potter y el caliz de fuego </td>
+                <td>J. K. Rowling</td>
+                <td>2000</td>
+                <td><a href="https://www.amazon.ca/Harry-Potter-c%C3%A1liz-colecci%C3%B3n-Spanish-ebook/dp/B0192CTNKO/ref=sr_1_1?crid=NMD3FXQ23716&keywords=harry+potter+caliz&qid=1662487701&s=books&sprefix=harry+potter+caliz%2Cstripbooks%2C73&sr=1-1">Compra aqui</a></td>
+            </tr>
+        </table></center>
+    </main>
+</body>
+</html>
