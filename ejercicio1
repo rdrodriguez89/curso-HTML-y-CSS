@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduccion a HTML en OpenBootCamp</title>
+</head>
+<body>
+    <header>
+        <center><h1>Ejercicio de introduccion a HTML en OpenBootCamp</h1></center>
+    </header>
+    <main>
+        <center><div> <p>Este es mi primer comentario de dos líneas <br> Aprendiendo a documentar mi código con OpenBootcamp</p>
+        </div>
+        <div>
+            <ul>Videos de Youtube favoritos</ul>
+            <li><a href="https://youtu.be/mRD0-GxqHVo">Glass Animals - Heat Waves</a></li>
+            <li><a href="https://youtu.be/A_g3lMcWVy0">QUEVEDO || BZRP</a></li>
+            <li><a href="https://youtu.be/TiM_TFpT_DE">La bachata - MTZ </a></li>
+        </div></center
+    </main>
+</body>
+</html>
