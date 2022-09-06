@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <header>
+        <center><H1>Ejercicio 02 - Formularios en HTML</H1></center>
+    </header>
+    <form action="/">
+        <fieldset style=" width: 600px; margin-left: 270px;" >
+            <legend>Datos de identificacion</legend>
+            <center><div style="padding: 20px ;">
+                <label style="cursor: pointer;" for="nombre" type="text">Nombre Completo</label>
+                <input id="nombre" name="nombrecompleto" placeholder="introduce tu nombre completo aqui" required>
+            </div>
+            <div style="padding: 20px ;">
+                <label for="edad">Cual es tu edad?</label>
+                    <select name="edad" id="edad">
+                        <option>Elige tu rango de edad</option>
+                        <option>menos de 15 años</option>
+                        <option>15 a 25 años</option>
+                        <option>26 a 35 años</option>
+                        <option>36 a 50 años</option>
+                        <option>Mas de 51 años</option>
+                    </select>
+            </div></center>
+        </fieldset>
+        <div style="height: 20px ;"></div>
+        <fieldset style=" width: 600px; margin-left: 270px;" >
+            <legend>Tu opinion nos interesa</legend>
+            <center><label for="frase" style="cursor: pointer">Introduce tu frase favorita</label>
+            <div></div>
+            <textarea placeholder="frase favorita" id="frase" name="frasefavorita" style="width: 300px ; height: 100px" required></textarea></center>
+        </fieldset>
+    </form>
+    <div style="height: 10px ;"></div>
+    <center><div>
+    <button type="reset" style="margin: 20px; width: 80px;">Reiniciar</button>
+    <button type="submit" style="margin: 20px; width: 80px">Enviar</button>
+    </div></center>
+</body>
+</html>
